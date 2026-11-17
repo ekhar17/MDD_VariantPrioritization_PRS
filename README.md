@@ -22,3 +22,6 @@ You will need R and the packages used by your chosen analysis. The PRS-CS and
 LDSC steps also need their Python environments; full genotype analyses generally
 require a compute cluster. Details are in the [software guide](docs/SOFTWARE.md).
 
+Scripts are numbered in execution order within each analysis folder. A matching `.R` script and `.sh` launcher perform the same step; use one execution route. See the [run-order guide](docs/WORKFLOW.md) for required arguments, optional steps and setup instructions.
+
+
