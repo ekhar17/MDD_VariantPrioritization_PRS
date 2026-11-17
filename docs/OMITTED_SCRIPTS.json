@@ -1,0 +1,58 @@
+[
+  {
+    "source": "original_code/05.PRS_CS_construction/All_EUR_Results_Comparison.R",
+    "reason": "Exploratory comparisons of historical output versions; production evaluation scripts retained."
+  },
+  {
+    "source": "original_code/05.PRS_CS_construction/All_EUR_Results_Comparison_alttrait.R",
+    "reason": "Exploratory comparisons of historical output versions; production evaluation scripts retained."
+  },
+  {
+    "source": "original_code/05.PRS_CS_construction/All_Results_Comparison.R",
+    "reason": "Exploratory comparisons of historical output versions; production evaluation scripts retained."
+  },
+  {
+    "source": "original_code/05.PRS_CS_construction/scratchwork_PRS_size.R",
+    "reason": "Interactive scratch analysis, not a production step."
+  },
+  {
+    "source": "original_code/06.Elastic_Net/multi_trait/01.Train_ElasticNet_multitrait_QUICK.R",
+    "reason": "Reduced 2x2 CV smoke/pilot variant; production 10x10 CV version retained."
+  },
+  {
+    "source": "original_code/06.Elastic_Net/multi_trait/01.Train_ElasticNet_multitrait_QUICK.sh",
+    "reason": "Reduced 2x2 CV smoke/pilot variant; production 10x10 CV version retained."
+  },
+  {
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDcoef_alttraitset/01.Train_ElasticNet_multitrait_MDDcoef_alttraitset_QUICK.R",
+    "reason": "Reduced 2x2 CV smoke/pilot variant; production 10x10 CV version retained."
+  },
+  {
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDcoef_alttraitset/01.Train_ElasticNet_multitrait_MDDcoef_alttraitset_QUICK.sh",
+    "reason": "Reduced 2x2 CV smoke/pilot variant; production 10x10 CV version retained."
+  },
+  {
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDset_alttraitcoef/01.Train_ElasticNet_MDDset_alttraitcoef_QUICK.R",
+    "reason": "Reduced 2x2 CV smoke/pilot variant; production 10x10 CV version retained."
+  },
+  {
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDset_alttraitcoef/01.Train_ElasticNet_MDDset_alttraitcoef_QUICK.sh",
+    "reason": "Reduced 2x2 CV smoke/pilot variant; production 10x10 CV version retained."
+  },
+  {
+    "source": "original_code/06.Elastic_Net/single_trait/01.Train_ElasticNet_QUICK.R",
+    "reason": "Reduced 2x2 CV smoke/pilot variant; production 10x10 CV version retained."
+  },
+  {
+    "source": "original_code/06.Elastic_Net/single_trait/01.Train_ElasticNet_QUICK.sh",
+    "reason": "Reduced 2x2 CV smoke/pilot variant; production 10x10 CV version retained."
+  },
+  {
+    "source": "additional_analyses/",
+    "reason": "Outside the selected core upload; retained in the pre-numbering workspace snapshot."
+  },
+  {
+    "source": "figure_assembly/",
+    "reason": "Outside the selected core upload; retained in the pre-numbering workspace snapshot."
+  }
+]

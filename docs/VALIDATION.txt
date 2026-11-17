@@ -1,0 +1,18 @@
+Core upload preparation: 2026-11-17
+
+Scope: prs_construction, elastic_net, figures, config, scripts and docs.
+78 core study scripts have execution-order prefixes.
+The R and shell files for the same operation share the same number.
+Helper launchers and configuration files are not numbered analysis steps.
+
+Run bash scripts/run_checks.sh for the current static release checks.
+No full UK Biobank model fits or participant-level analyses are run by this check.
+The additional-analysis synthetic suites are outside this selected upload.
+
+PASS: 62 R files parsed; Bash/Python syntax and release hashes checked.
+PASS: all 19 numbered shell launchers resolve their targets and forward
+      the expected arguments with mock interpreters and paths containing spaces.
+PASS: four model-class training wrappers work as spooled SLURM examples.
+PASS: all local Markdown links and numbered run-order targets resolve.
+PASS: 59 study R scripts retain their parsed non-string expressions, and
+      external MDD_PROJECT input/output paths match the pre-numbering snapshot.

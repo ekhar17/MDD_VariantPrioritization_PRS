@@ -1,0 +1,646 @@
+[
+  {
+    "previous_path": "05.PRS_CS_construction/01.Format_gwas_bim.R",
+    "current_path": "prs_construction/01_format_mdd_gwas.R"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/01a.Format_GWAS_othertraits.R",
+    "current_path": "prs_construction/02_format_related_trait_gwas.R"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/01b.Format_MDD_GWAS_othertraitset.R",
+    "current_path": "prs_construction/03_format_related_trait_variant_sets.R"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/01c.Format_MDD_GWASset_othertraitcoef.R",
+    "current_path": "prs_construction/04_format_related_trait_effect_sizes.R"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/02.PRS-CS_run.sh",
+    "current_path": "prs_construction/05_run_mdd_prscs.sh"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/02b.PRS-CS_run_groups.sh",
+    "current_path": "prs_construction/06_run_mdd_variant_sets.sh"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/02c.PRS-CS_other_traits.sh",
+    "current_path": "prs_construction/07_run_related_trait_prscs.sh"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/02d.PRS-CS_MDDcoef_alttraitset.sh",
+    "current_path": "prs_construction/08_run_related_trait_variant_sets.sh"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/02e.PRS-CS_MDDsets_othertraitcoef.sh",
+    "current_path": "prs_construction/09_run_related_trait_effect_sizes.sh"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/03.Combine_PRS-CS_chrom.R",
+    "current_path": "prs_construction/10_combine_chromosome_weights.R"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/04.PRS-CS_predictions.R",
+    "current_path": "prs_construction/11_score_mdd_prs.R"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/04.PRS-CS_predictions.sh",
+    "current_path": "prs_construction/11_score_mdd_prs.sh"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/04.PRS-CS_predictions_group.R",
+    "current_path": "prs_construction/12_score_mdd_variant_sets.R"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/04.PRS-CS_predictions_group.sh",
+    "current_path": "prs_construction/12_score_mdd_variant_sets.sh"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/04b.PRS-CS_predictions_alttraits.R",
+    "current_path": "prs_construction/13_score_related_trait_prs.R"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/04b.PRS-CS_predictions_alttraits.sh",
+    "current_path": "prs_construction/13_score_related_trait_prs.sh"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/04c.PRS-CS_predictions_alttraitset_MDDcoef.R",
+    "current_path": "prs_construction/14_score_related_trait_variant_sets.R"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/04c.PRS-CS_predictions_alttraitset_MDDcoef.sh",
+    "current_path": "prs_construction/14_score_related_trait_variant_sets.sh"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/04d.PRS-CS_predictions_MDDset_alttraitcoef.R",
+    "current_path": "prs_construction/15_score_related_trait_effect_sizes.R"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/04d.PRS-CS_predictions_MDDset_alttraitcoef.sh",
+    "current_path": "prs_construction/15_score_related_trait_effect_sizes.sh"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/05.PRS-CS_results.R",
+    "current_path": "prs_construction/16_collect_mdd_scores.R"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/05.PRS-CS_results_alttraits.R",
+    "current_path": "prs_construction/17_collect_related_trait_scores.R"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/06.Clean_Results.R",
+    "current_path": "prs_construction/18_prepare_mdd_evaluation_data.R"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/07.Clean_Results_AltAncestries.R",
+    "current_path": "prs_construction/19_prepare_ancestry_evaluation_data.R"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/08.Clean_AltTrait_AltAncestry.R",
+    "current_path": "prs_construction/20_prepare_related_trait_ancestry_data.R"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/08B.Clean_AltTrait_EurAncestry.R",
+    "current_path": "prs_construction/21_prepare_related_trait_eur_data.R"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/09.Calc_Perf_AltAncestry.R",
+    "current_path": "prs_construction/22_evaluate_ancestry_prs.R"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/10.Calc_MAF.R",
+    "current_path": "prs_construction/23_calculate_allele_frequencies.R"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/10.Calc_MAF.sh",
+    "current_path": "prs_construction/23_calculate_allele_frequencies.sh"
+  },
+  {
+    "previous_path": "05.PRS_CS_construction/11.Examine_MAF.R",
+    "current_path": "prs_construction/24_summarize_allele_frequencies.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait/01.Train_ElasticNet_multitrait.R",
+    "current_path": "elastic_net/multi_trait/01_train_models.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait/01.Train_ElasticNet_multitrait.sh",
+    "current_path": "elastic_net/multi_trait/01_train_models.sh"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait/02.Apply_covar0_multitrait.R",
+    "current_path": "elastic_net/multi_trait/02_predict_prs.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait/02.Apply_covar0_multitrait.sh",
+    "current_path": "elastic_net/multi_trait/02_predict_prs.sh"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait/03.Clean_Results.R",
+    "current_path": "elastic_net/multi_trait/03_collect_predictions.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait/04.Calculate_Performance.R",
+    "current_path": "elastic_net/multi_trait/04_evaluate_models.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait/05.Summarise_Number_Nonzero_Coef.R",
+    "current_path": "elastic_net/multi_trait/05_summarize_coefficients.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait/06.Apply_AltAncestry.R",
+    "current_path": "elastic_net/multi_trait/06_predict_other_ancestries.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait/07.Clean_AltAncestry.R",
+    "current_path": "elastic_net/multi_trait/07_collect_ancestry_predictions.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait/08.Calculate_Performance_AltAncestry.R",
+    "current_path": "elastic_net/multi_trait/08_evaluate_other_ancestries.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait_MDDcoef_alttraitset/01.Train_ElasticNet_MDDcoef_alttraitset.R",
+    "current_path": "elastic_net/cross_trait_variant_sets/01_train_models.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait_MDDcoef_alttraitset/01.Train_ElasticNet_MDDcoef_alttraitset.sh",
+    "current_path": "elastic_net/cross_trait_variant_sets/01_train_models.sh"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait_MDDcoef_alttraitset/02.Apply_covar0_MDDset_alttraitset.R",
+    "current_path": "elastic_net/cross_trait_variant_sets/02_predict_prs.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait_MDDcoef_alttraitset/02.Apply_covar0_MDDset_alttraitset.sh",
+    "current_path": "elastic_net/cross_trait_variant_sets/02_predict_prs.sh"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait_MDDcoef_alttraitset/03.Clean_Results.R",
+    "current_path": "elastic_net/cross_trait_variant_sets/03_collect_predictions.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait_MDDcoef_alttraitset/04.Calculate_Performance.R",
+    "current_path": "elastic_net/cross_trait_variant_sets/04_evaluate_models.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait_MDDcoef_alttraitset/05.Summarise_Number_Nonzero_Coef.R",
+    "current_path": "elastic_net/cross_trait_variant_sets/05_summarize_coefficients.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait_MDDcoef_alttraitset/06.Apply_AltAncestry.R",
+    "current_path": "elastic_net/cross_trait_variant_sets/06_predict_other_ancestries.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait_MDDcoef_alttraitset/07.Clean_AltAncestry.R",
+    "current_path": "elastic_net/cross_trait_variant_sets/07_collect_ancestry_predictions.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait_MDDcoef_alttraitset/08.Calculate_Perf_AltAncestry.R",
+    "current_path": "elastic_net/cross_trait_variant_sets/08_evaluate_other_ancestries.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait_MDDset_alttraitcoef/01.Train_ElasticNet_MDDset_alttraitcoef.R",
+    "current_path": "elastic_net/cross_trait_effect_sizes/01_train_models.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait_MDDset_alttraitcoef/01.Train_ElasticNet_MDDset_alttraitcoef.sh",
+    "current_path": "elastic_net/cross_trait_effect_sizes/01_train_models.sh"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait_MDDset_alttraitcoef/02.Apply_covar0_MDDset_alttraitcoef.R",
+    "current_path": "elastic_net/cross_trait_effect_sizes/02_predict_prs.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait_MDDset_alttraitcoef/02.Apply_covar0_MDDset_alttraitcoef.sh",
+    "current_path": "elastic_net/cross_trait_effect_sizes/02_predict_prs.sh"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait_MDDset_alttraitcoef/03.Clean_Results.R",
+    "current_path": "elastic_net/cross_trait_effect_sizes/03_collect_predictions.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait_MDDset_alttraitcoef/04.Calculate_Performance.R",
+    "current_path": "elastic_net/cross_trait_effect_sizes/04_evaluate_models.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait_MDDset_alttraitcoef/05.Summarise_Number_Nonzero_Coef.R",
+    "current_path": "elastic_net/cross_trait_effect_sizes/05_summarize_coefficients.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait_MDDset_alttraitcoef/06.Apply_AltAncestry.R",
+    "current_path": "elastic_net/cross_trait_effect_sizes/06_predict_other_ancestries.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait_MDDset_alttraitcoef/07.Clean_AltAncestry.R",
+    "current_path": "elastic_net/cross_trait_effect_sizes/07_collect_ancestry_predictions.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/multi_trait_MDDset_alttraitcoef/08.Calc_Perf_AltAncestry.R",
+    "current_path": "elastic_net/cross_trait_effect_sizes/08_evaluate_other_ancestries.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/single_trait/01.Train_ElasticNet.R",
+    "current_path": "elastic_net/mdd_only/01_train_models.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/single_trait/01.Train_ElasticNet.sh",
+    "current_path": "elastic_net/mdd_only/01_train_models.sh"
+  },
+  {
+    "previous_path": "06.Elastic_Net/single_trait/02.Apply_covar0.R",
+    "current_path": "elastic_net/mdd_only/02_predict_prs.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/single_trait/02.Apply_covar0.sh",
+    "current_path": "elastic_net/mdd_only/02_predict_prs.sh"
+  },
+  {
+    "previous_path": "06.Elastic_Net/single_trait/03.Clean_Results.R",
+    "current_path": "elastic_net/mdd_only/03_collect_predictions.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/single_trait/04.Calculate_Performance.R",
+    "current_path": "elastic_net/mdd_only/04_evaluate_models.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/single_trait/05.Summarise_Number_Nonzero_Coef.R",
+    "current_path": "elastic_net/mdd_only/05_summarize_coefficients.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/single_trait/06.Pred_AltAncestry.R",
+    "current_path": "elastic_net/mdd_only/06_predict_other_ancestries.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/single_trait/07.Clean_AltAncestry.R",
+    "current_path": "elastic_net/mdd_only/07_collect_ancestry_predictions.R"
+  },
+  {
+    "previous_path": "06.Elastic_Net/single_trait/08.CalcPerf_AltAncestry.R",
+    "current_path": "elastic_net/mdd_only/08_evaluate_other_ancestries.R"
+  },
+  {
+    "previous_path": "08.Generate_Figures/01.NoCombine_TraitSet_TraiCoef_AUC.R",
+    "current_path": "figures/02_plot_partial_prs_auc.R"
+  },
+  {
+    "previous_path": "08.Generate_Figures/01b.NoCombine_TraitSet_TraiCoef_nagr2_top10_top1.R",
+    "current_path": "figures/07_plot_partial_prs_risk_metrics.R"
+  },
+  {
+    "previous_path": "08.Generate_Figures/01c.NoCombine_TraitSet_TraiCoef_aucpersnp.R",
+    "current_path": "figures/06_plot_auc_per_variant.R"
+  },
+  {
+    "previous_path": "08.Generate_Figures/01d.AltVersion_AltTraitCoef_vs_AltTraitSNPset.R",
+    "current_path": "figures/04_plot_variant_set_and_effect_comparisons.R"
+  },
+  {
+    "previous_path": "08.Generate_Figures/02.Upset_Plot_Attempt_v2.R",
+    "current_path": "figures/01_plot_variant_set_overlap.R"
+  },
+  {
+    "previous_path": "08.Generate_Figures/03.Plot_AllModels.R",
+    "current_path": "figures/03_plot_combined_prs_performance.R"
+  },
+  {
+    "previous_path": "08.Generate_Figures/04.Plot_Other_Ancestries.R",
+    "current_path": "figures/05_plot_ancestry_transfer.R"
+  },
+  {
+    "previous_path": "08.Generate_Figures/05.AllEUR_BaseModelCoef.R",
+    "current_path": "figures/08_plot_logistic_coefficients.R"
+  },
+  {
+    "previous_path": "scripts/run_R.sh",
+    "current_path": "scripts/run_r.sh"
+  },
+  {
+    "previous_path": "prs_construction/summarize_allele_frequencies.R",
+    "current_path": "prs_construction/24_summarize_allele_frequencies.R"
+  },
+  {
+    "previous_path": "prs_construction/run_mdd_prscs.sh",
+    "current_path": "prs_construction/05_run_mdd_prscs.sh"
+  },
+  {
+    "previous_path": "prs_construction/collect_mdd_scores.R",
+    "current_path": "prs_construction/16_collect_mdd_scores.R"
+  },
+  {
+    "previous_path": "prs_construction/score_related_trait_variant_sets.R",
+    "current_path": "prs_construction/14_score_related_trait_variant_sets.R"
+  },
+  {
+    "previous_path": "prs_construction/run_related_trait_effect_sizes.sh",
+    "current_path": "prs_construction/09_run_related_trait_effect_sizes.sh"
+  },
+  {
+    "previous_path": "prs_construction/prepare_related_trait_eur_data.R",
+    "current_path": "prs_construction/21_prepare_related_trait_eur_data.R"
+  },
+  {
+    "previous_path": "prs_construction/score_related_trait_effect_sizes.sh",
+    "current_path": "prs_construction/15_score_related_trait_effect_sizes.sh"
+  },
+  {
+    "previous_path": "prs_construction/score_mdd_variant_sets.sh",
+    "current_path": "prs_construction/12_score_mdd_variant_sets.sh"
+  },
+  {
+    "previous_path": "prs_construction/score_related_trait_variant_sets.sh",
+    "current_path": "prs_construction/14_score_related_trait_variant_sets.sh"
+  },
+  {
+    "previous_path": "prs_construction/run_related_trait_variant_sets.sh",
+    "current_path": "prs_construction/08_run_related_trait_variant_sets.sh"
+  },
+  {
+    "previous_path": "prs_construction/run_mdd_variant_sets.sh",
+    "current_path": "prs_construction/06_run_mdd_variant_sets.sh"
+  },
+  {
+    "previous_path": "prs_construction/prepare_ancestry_evaluation_data.R",
+    "current_path": "prs_construction/19_prepare_ancestry_evaluation_data.R"
+  },
+  {
+    "previous_path": "prs_construction/combine_chromosome_weights.R",
+    "current_path": "prs_construction/10_combine_chromosome_weights.R"
+  },
+  {
+    "previous_path": "prs_construction/prepare_mdd_evaluation_data.R",
+    "current_path": "prs_construction/18_prepare_mdd_evaluation_data.R"
+  },
+  {
+    "previous_path": "prs_construction/run_related_trait_prscs.sh",
+    "current_path": "prs_construction/07_run_related_trait_prscs.sh"
+  },
+  {
+    "previous_path": "prs_construction/score_mdd_prs.R",
+    "current_path": "prs_construction/11_score_mdd_prs.R"
+  },
+  {
+    "previous_path": "prs_construction/score_related_trait_effect_sizes.R",
+    "current_path": "prs_construction/15_score_related_trait_effect_sizes.R"
+  },
+  {
+    "previous_path": "prs_construction/calculate_allele_frequencies.R",
+    "current_path": "prs_construction/23_calculate_allele_frequencies.R"
+  },
+  {
+    "previous_path": "prs_construction/score_mdd_prs.sh",
+    "current_path": "prs_construction/11_score_mdd_prs.sh"
+  },
+  {
+    "previous_path": "prs_construction/score_related_trait_prs.R",
+    "current_path": "prs_construction/13_score_related_trait_prs.R"
+  },
+  {
+    "previous_path": "prs_construction/format_mdd_gwas.R",
+    "current_path": "prs_construction/01_format_mdd_gwas.R"
+  },
+  {
+    "previous_path": "prs_construction/score_mdd_variant_sets.R",
+    "current_path": "prs_construction/12_score_mdd_variant_sets.R"
+  },
+  {
+    "previous_path": "prs_construction/collect_related_trait_scores.R",
+    "current_path": "prs_construction/17_collect_related_trait_scores.R"
+  },
+  {
+    "previous_path": "prs_construction/format_related_trait_effect_sizes.R",
+    "current_path": "prs_construction/04_format_related_trait_effect_sizes.R"
+  },
+  {
+    "previous_path": "prs_construction/score_related_trait_prs.sh",
+    "current_path": "prs_construction/13_score_related_trait_prs.sh"
+  },
+  {
+    "previous_path": "prs_construction/calculate_allele_frequencies.sh",
+    "current_path": "prs_construction/23_calculate_allele_frequencies.sh"
+  },
+  {
+    "previous_path": "prs_construction/format_related_trait_gwas.R",
+    "current_path": "prs_construction/02_format_related_trait_gwas.R"
+  },
+  {
+    "previous_path": "prs_construction/format_related_trait_variant_sets.R",
+    "current_path": "prs_construction/03_format_related_trait_variant_sets.R"
+  },
+  {
+    "previous_path": "prs_construction/prepare_related_trait_ancestry_data.R",
+    "current_path": "prs_construction/20_prepare_related_trait_ancestry_data.R"
+  },
+  {
+    "previous_path": "prs_construction/evaluate_ancestry_prs.R",
+    "current_path": "prs_construction/22_evaluate_ancestry_prs.R"
+  },
+  {
+    "previous_path": "figures/plot_partial_prs_risk_metrics.R",
+    "current_path": "figures/07_plot_partial_prs_risk_metrics.R"
+  },
+  {
+    "previous_path": "figures/plot_partial_prs_auc.R",
+    "current_path": "figures/02_plot_partial_prs_auc.R"
+  },
+  {
+    "previous_path": "figures/plot_combined_prs_performance.R",
+    "current_path": "figures/03_plot_combined_prs_performance.R"
+  },
+  {
+    "previous_path": "figures/plot_variant_set_overlap.R",
+    "current_path": "figures/01_plot_variant_set_overlap.R"
+  },
+  {
+    "previous_path": "figures/plot_logistic_coefficients.R",
+    "current_path": "figures/08_plot_logistic_coefficients.R"
+  },
+  {
+    "previous_path": "figures/plot_auc_per_variant.R",
+    "current_path": "figures/06_plot_auc_per_variant.R"
+  },
+  {
+    "previous_path": "figures/plot_ancestry_transfer.R",
+    "current_path": "figures/05_plot_ancestry_transfer.R"
+  },
+  {
+    "previous_path": "figures/plot_variant_set_and_effect_comparisons.R",
+    "current_path": "figures/04_plot_variant_set_and_effect_comparisons.R"
+  },
+  {
+    "previous_path": "elastic_net/mdd_only/collect_ancestry_predictions.R",
+    "current_path": "elastic_net/mdd_only/07_collect_ancestry_predictions.R"
+  },
+  {
+    "previous_path": "elastic_net/mdd_only/predict_prs.R",
+    "current_path": "elastic_net/mdd_only/02_predict_prs.R"
+  },
+  {
+    "previous_path": "elastic_net/mdd_only/evaluate_other_ancestries.R",
+    "current_path": "elastic_net/mdd_only/08_evaluate_other_ancestries.R"
+  },
+  {
+    "previous_path": "elastic_net/mdd_only/evaluate_models.R",
+    "current_path": "elastic_net/mdd_only/04_evaluate_models.R"
+  },
+  {
+    "previous_path": "elastic_net/mdd_only/predict_other_ancestries.R",
+    "current_path": "elastic_net/mdd_only/06_predict_other_ancestries.R"
+  },
+  {
+    "previous_path": "elastic_net/mdd_only/train_models.R",
+    "current_path": "elastic_net/mdd_only/01_train_models.R"
+  },
+  {
+    "previous_path": "elastic_net/mdd_only/predict_prs.sh",
+    "current_path": "elastic_net/mdd_only/02_predict_prs.sh"
+  },
+  {
+    "previous_path": "elastic_net/mdd_only/collect_predictions.R",
+    "current_path": "elastic_net/mdd_only/03_collect_predictions.R"
+  },
+  {
+    "previous_path": "elastic_net/mdd_only/summarize_coefficients.R",
+    "current_path": "elastic_net/mdd_only/05_summarize_coefficients.R"
+  },
+  {
+    "previous_path": "elastic_net/mdd_only/train_models.sh",
+    "current_path": "elastic_net/mdd_only/01_train_models.sh"
+  },
+  {
+    "previous_path": "elastic_net/cross_trait_variant_sets/collect_ancestry_predictions.R",
+    "current_path": "elastic_net/cross_trait_variant_sets/07_collect_ancestry_predictions.R"
+  },
+  {
+    "previous_path": "elastic_net/cross_trait_variant_sets/predict_prs.R",
+    "current_path": "elastic_net/cross_trait_variant_sets/02_predict_prs.R"
+  },
+  {
+    "previous_path": "elastic_net/cross_trait_variant_sets/evaluate_other_ancestries.R",
+    "current_path": "elastic_net/cross_trait_variant_sets/08_evaluate_other_ancestries.R"
+  },
+  {
+    "previous_path": "elastic_net/cross_trait_variant_sets/evaluate_models.R",
+    "current_path": "elastic_net/cross_trait_variant_sets/04_evaluate_models.R"
+  },
+  {
+    "previous_path": "elastic_net/cross_trait_variant_sets/predict_other_ancestries.R",
+    "current_path": "elastic_net/cross_trait_variant_sets/06_predict_other_ancestries.R"
+  },
+  {
+    "previous_path": "elastic_net/cross_trait_variant_sets/train_models.R",
+    "current_path": "elastic_net/cross_trait_variant_sets/01_train_models.R"
+  },
+  {
+    "previous_path": "elastic_net/cross_trait_variant_sets/predict_prs.sh",
+    "current_path": "elastic_net/cross_trait_variant_sets/02_predict_prs.sh"
+  },
+  {
+    "previous_path": "elastic_net/cross_trait_variant_sets/collect_predictions.R",
+    "current_path": "elastic_net/cross_trait_variant_sets/03_collect_predictions.R"
+  },
+  {
+    "previous_path": "elastic_net/cross_trait_variant_sets/summarize_coefficients.R",
+    "current_path": "elastic_net/cross_trait_variant_sets/05_summarize_coefficients.R"
+  },
+  {
+    "previous_path": "elastic_net/cross_trait_variant_sets/train_models.sh",
+    "current_path": "elastic_net/cross_trait_variant_sets/01_train_models.sh"
+  },
+  {
+    "previous_path": "elastic_net/cross_trait_effect_sizes/collect_ancestry_predictions.R",
+    "current_path": "elastic_net/cross_trait_effect_sizes/07_collect_ancestry_predictions.R"
+  },
+  {
+    "previous_path": "elastic_net/cross_trait_effect_sizes/predict_prs.R",
+    "current_path": "elastic_net/cross_trait_effect_sizes/02_predict_prs.R"
+  },
+  {
+    "previous_path": "elastic_net/cross_trait_effect_sizes/evaluate_other_ancestries.R",
+    "current_path": "elastic_net/cross_trait_effect_sizes/08_evaluate_other_ancestries.R"
+  },
+  {
+    "previous_path": "elastic_net/cross_trait_effect_sizes/evaluate_models.R",
+    "current_path": "elastic_net/cross_trait_effect_sizes/04_evaluate_models.R"
+  },
+  {
+    "previous_path": "elastic_net/cross_trait_effect_sizes/predict_other_ancestries.R",
+    "current_path": "elastic_net/cross_trait_effect_sizes/06_predict_other_ancestries.R"
+  },
+  {
+    "previous_path": "elastic_net/cross_trait_effect_sizes/train_models.R",
+    "current_path": "elastic_net/cross_trait_effect_sizes/01_train_models.R"
+  },
+  {
+    "previous_path": "elastic_net/cross_trait_effect_sizes/predict_prs.sh",
+    "current_path": "elastic_net/cross_trait_effect_sizes/02_predict_prs.sh"
+  },
+  {
+    "previous_path": "elastic_net/cross_trait_effect_sizes/collect_predictions.R",
+    "current_path": "elastic_net/cross_trait_effect_sizes/03_collect_predictions.R"
+  },
+  {
+    "previous_path": "elastic_net/cross_trait_effect_sizes/summarize_coefficients.R",
+    "current_path": "elastic_net/cross_trait_effect_sizes/05_summarize_coefficients.R"
+  },
+  {
+    "previous_path": "elastic_net/cross_trait_effect_sizes/train_models.sh",
+    "current_path": "elastic_net/cross_trait_effect_sizes/01_train_models.sh"
+  },
+  {
+    "previous_path": "elastic_net/multi_trait/collect_ancestry_predictions.R",
+    "current_path": "elastic_net/multi_trait/07_collect_ancestry_predictions.R"
+  },
+  {
+    "previous_path": "elastic_net/multi_trait/predict_prs.R",
+    "current_path": "elastic_net/multi_trait/02_predict_prs.R"
+  },
+  {
+    "previous_path": "elastic_net/multi_trait/evaluate_other_ancestries.R",
+    "current_path": "elastic_net/multi_trait/08_evaluate_other_ancestries.R"
+  },
+  {
+    "previous_path": "elastic_net/multi_trait/evaluate_models.R",
+    "current_path": "elastic_net/multi_trait/04_evaluate_models.R"
+  },
+  {
+    "previous_path": "elastic_net/multi_trait/predict_other_ancestries.R",
+    "current_path": "elastic_net/multi_trait/06_predict_other_ancestries.R"
+  },
+  {
+    "previous_path": "elastic_net/multi_trait/train_models.R",
+    "current_path": "elastic_net/multi_trait/01_train_models.R"
+  },
+  {
+    "previous_path": "elastic_net/multi_trait/predict_prs.sh",
+    "current_path": "elastic_net/multi_trait/02_predict_prs.sh"
+  },
+  {
+    "previous_path": "elastic_net/multi_trait/collect_predictions.R",
+    "current_path": "elastic_net/multi_trait/03_collect_predictions.R"
+  },
+  {
+    "previous_path": "elastic_net/multi_trait/summarize_coefficients.R",
+    "current_path": "elastic_net/multi_trait/05_summarize_coefficients.R"
+  },
+  {
+    "previous_path": "elastic_net/multi_trait/train_models.sh",
+    "current_path": "elastic_net/multi_trait/01_train_models.sh"
+  },
+  {
+    "previous_path": "scripts/check_dependencies.R",
+    "current_path": "scripts/01_check_dependencies.R"
+  },
+  {
+    "previous_path": "scripts/init_workspace.R",
+    "current_path": "scripts/02_init_workspace.R"
+  },
+  {
+    "previous_path": "scripts/run_tests.sh",
+    "current_path": "scripts/run_checks.sh"
+  },
+  {
+    "previous_path": "tools/validate_release.py",
+    "current_path": "scripts/check_release.py"
+  }
+]

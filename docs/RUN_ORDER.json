@@ -1,0 +1,279 @@
+{
+  "prs_construction": [
+    {
+      "step": 1,
+      "scripts": [
+        "prs_construction/01_format_mdd_gwas.R"
+      ],
+      "optional": false
+    },
+    {
+      "step": 2,
+      "scripts": [
+        "prs_construction/02_format_related_trait_gwas.R"
+      ],
+      "optional": false
+    },
+    {
+      "step": 3,
+      "scripts": [
+        "prs_construction/03_format_related_trait_variant_sets.R"
+      ],
+      "optional": false
+    },
+    {
+      "step": 4,
+      "scripts": [
+        "prs_construction/04_format_related_trait_effect_sizes.R"
+      ],
+      "optional": false
+    },
+    {
+      "step": 5,
+      "scripts": [
+        "prs_construction/05_run_mdd_prscs.sh"
+      ],
+      "optional": false
+    },
+    {
+      "step": 6,
+      "scripts": [
+        "prs_construction/06_run_mdd_variant_sets.sh"
+      ],
+      "optional": false
+    },
+    {
+      "step": 7,
+      "scripts": [
+        "prs_construction/07_run_related_trait_prscs.sh"
+      ],
+      "optional": false
+    },
+    {
+      "step": 8,
+      "scripts": [
+        "prs_construction/08_run_related_trait_variant_sets.sh"
+      ],
+      "optional": false
+    },
+    {
+      "step": 9,
+      "scripts": [
+        "prs_construction/09_run_related_trait_effect_sizes.sh"
+      ],
+      "optional": false
+    },
+    {
+      "step": 10,
+      "scripts": [
+        "prs_construction/10_combine_chromosome_weights.R"
+      ],
+      "optional": false
+    },
+    {
+      "step": 11,
+      "scripts": [
+        "prs_construction/11_score_mdd_prs.R",
+        "prs_construction/11_score_mdd_prs.sh"
+      ],
+      "optional": false
+    },
+    {
+      "step": 12,
+      "scripts": [
+        "prs_construction/12_score_mdd_variant_sets.R",
+        "prs_construction/12_score_mdd_variant_sets.sh"
+      ],
+      "optional": false
+    },
+    {
+      "step": 13,
+      "scripts": [
+        "prs_construction/13_score_related_trait_prs.R",
+        "prs_construction/13_score_related_trait_prs.sh"
+      ],
+      "optional": false
+    },
+    {
+      "step": 14,
+      "scripts": [
+        "prs_construction/14_score_related_trait_variant_sets.R",
+        "prs_construction/14_score_related_trait_variant_sets.sh"
+      ],
+      "optional": false
+    },
+    {
+      "step": 15,
+      "scripts": [
+        "prs_construction/15_score_related_trait_effect_sizes.R",
+        "prs_construction/15_score_related_trait_effect_sizes.sh"
+      ],
+      "optional": false
+    },
+    {
+      "step": 16,
+      "scripts": [
+        "prs_construction/16_collect_mdd_scores.R"
+      ],
+      "optional": false
+    },
+    {
+      "step": 17,
+      "scripts": [
+        "prs_construction/17_collect_related_trait_scores.R"
+      ],
+      "optional": false
+    },
+    {
+      "step": 18,
+      "scripts": [
+        "prs_construction/18_prepare_mdd_evaluation_data.R"
+      ],
+      "optional": false
+    },
+    {
+      "step": 19,
+      "scripts": [
+        "prs_construction/19_prepare_ancestry_evaluation_data.R"
+      ],
+      "optional": false
+    },
+    {
+      "step": 20,
+      "scripts": [
+        "prs_construction/20_prepare_related_trait_ancestry_data.R"
+      ],
+      "optional": false
+    },
+    {
+      "step": 21,
+      "scripts": [
+        "prs_construction/21_prepare_related_trait_eur_data.R"
+      ],
+      "optional": false
+    },
+    {
+      "step": 22,
+      "scripts": [
+        "prs_construction/22_evaluate_ancestry_prs.R"
+      ],
+      "optional": false
+    },
+    {
+      "step": 23,
+      "scripts": [
+        "prs_construction/23_calculate_allele_frequencies.R",
+        "prs_construction/23_calculate_allele_frequencies.sh"
+      ],
+      "optional": true
+    },
+    {
+      "step": 24,
+      "scripts": [
+        "prs_construction/24_summarize_allele_frequencies.R"
+      ],
+      "optional": true
+    }
+  ],
+  "elastic_net": [
+    {
+      "step": 1,
+      "script_stem": "01_train_models",
+      "optional": false
+    },
+    {
+      "step": 2,
+      "script_stem": "02_predict_prs",
+      "optional": false
+    },
+    {
+      "step": 3,
+      "script_stem": "03_collect_predictions",
+      "optional": false
+    },
+    {
+      "step": 4,
+      "script_stem": "04_evaluate_models",
+      "optional": false
+    },
+    {
+      "step": 5,
+      "script_stem": "05_summarize_coefficients",
+      "optional": true
+    },
+    {
+      "step": 6,
+      "script_stem": "06_predict_other_ancestries",
+      "optional": false
+    },
+    {
+      "step": 7,
+      "script_stem": "07_collect_ancestry_predictions",
+      "optional": false
+    },
+    {
+      "step": 8,
+      "script_stem": "08_evaluate_other_ancestries",
+      "optional": false
+    }
+  ],
+  "figures": [
+    {
+      "step": 1,
+      "scripts": [
+        "figures/01_plot_variant_set_overlap.R"
+      ],
+      "optional": false
+    },
+    {
+      "step": 2,
+      "scripts": [
+        "figures/02_plot_partial_prs_auc.R"
+      ],
+      "optional": false
+    },
+    {
+      "step": 3,
+      "scripts": [
+        "figures/03_plot_combined_prs_performance.R"
+      ],
+      "optional": false
+    },
+    {
+      "step": 4,
+      "scripts": [
+        "figures/04_plot_variant_set_and_effect_comparisons.R"
+      ],
+      "optional": false
+    },
+    {
+      "step": 5,
+      "scripts": [
+        "figures/05_plot_ancestry_transfer.R"
+      ],
+      "optional": false
+    },
+    {
+      "step": 6,
+      "scripts": [
+        "figures/06_plot_auc_per_variant.R"
+      ],
+      "optional": false
+    },
+    {
+      "step": 7,
+      "scripts": [
+        "figures/07_plot_partial_prs_risk_metrics.R"
+      ],
+      "optional": false
+    },
+    {
+      "step": 8,
+      "scripts": [
+        "figures/08_plot_logistic_coefficients.R"
+      ],
+      "optional": true
+    }
+  ],
+  "convention": "Numbers apply within each folder. Matching .R/.sh files run the same step; use one execution route. Figure scripts require their own completed input results."
+}

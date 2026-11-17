@@ -1,0 +1,1058 @@
+[
+  {
+    "path": "prs_construction/01_format_mdd_gwas.R",
+    "source": "original_code/05.PRS_CS_construction/01.Format_gwas_bim.R",
+    "source_sha256": "db5b0eeb31853de6eb7aeed8e529e53d34347e0aea7f0b8d50438ba708d78c6d",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Normalized obsolete stage-04 output path and/or HapMap filename typo to match downstream stage-05 readers.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "666bbeb4138f86d7c204e812f2e19c523fd4a2d932a6adbeb0fc1ebda3492f17",
+    "previous_release_path": "05.PRS_CS_construction/01.Format_gwas_bim.R",
+    "path_before_numbering": "prs_construction/format_mdd_gwas.R"
+  },
+  {
+    "path": "prs_construction/02_format_related_trait_gwas.R",
+    "source": "original_code/05.PRS_CS_construction/01a.Format_GWAS_othertraits.R",
+    "source_sha256": "82c7c4540297289b5bc1026f476e11afff250dc5690c443849d6917d7e10fded",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Normalized obsolete stage-04 output path and/or HapMap filename typo to match downstream stage-05 readers.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "5bff7d954bbc52650322ae032e3de6cfacd80c3fd8a653ec4d2483f85e113c9d",
+    "previous_release_path": "05.PRS_CS_construction/01a.Format_GWAS_othertraits.R",
+    "path_before_numbering": "prs_construction/format_related_trait_gwas.R"
+  },
+  {
+    "path": "prs_construction/03_format_related_trait_variant_sets.R",
+    "source": "original_code/05.PRS_CS_construction/01b.Format_MDD_GWAS_othertraitset.R",
+    "source_sha256": "93598cb517bf654be004d04a49144ca2dc101a956d8881acefa37b08edae600b",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "a9d515bc829bf731c005a2442b917aa68de78b7dd2064f83a9cf19db2f7272e5",
+    "previous_release_path": "05.PRS_CS_construction/01b.Format_MDD_GWAS_othertraitset.R",
+    "path_before_numbering": "prs_construction/format_related_trait_variant_sets.R"
+  },
+  {
+    "path": "prs_construction/04_format_related_trait_effect_sizes.R",
+    "source": "original_code/05.PRS_CS_construction/01c.Format_MDD_GWASset_othertraitcoef.R",
+    "source_sha256": "2bb793ef2ddf69e76044108a4c8f510bb778b259a14fa9d1097de4574b81ab42",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "ff420594332dea2947938ac962c0776aa4658ad582179f4a160191d6ee3dcc65",
+    "previous_release_path": "05.PRS_CS_construction/01c.Format_MDD_GWASset_othertraitcoef.R",
+    "path_before_numbering": "prs_construction/format_related_trait_effect_sizes.R"
+  },
+  {
+    "path": "prs_construction/05_run_mdd_prscs.sh",
+    "source": "original_code/05.PRS_CS_construction/02.PRS-CS_run.sh",
+    "source_sha256": "5e323dbe90d132baab35ee30df8b97b6822f00ea4a5cb465a391a6e38f57f80d",
+    "changes": [
+      "Configured paths, executable locations and repository discovery; removed site-specific module/partition requirements.",
+      "Removed named personal conda environment and added scheduler-spool repository discovery.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "198e91dbd6d4dd5b1bb7b71fb4ca9b312c989a55a7c0274c856950a227a2a7d9",
+    "previous_release_path": "05.PRS_CS_construction/02.PRS-CS_run.sh",
+    "path_before_numbering": "prs_construction/run_mdd_prscs.sh"
+  },
+  {
+    "path": "prs_construction/06_run_mdd_variant_sets.sh",
+    "source": "original_code/05.PRS_CS_construction/02b.PRS-CS_run_groups.sh",
+    "source_sha256": "48edd9e17812700386e8b24548bd5ae8e33698191522e559a7ac38a06f257a54",
+    "changes": [
+      "Configured paths, executable locations and repository discovery; removed site-specific module/partition requirements.",
+      "Removed named personal conda environment and added scheduler-spool repository discovery.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "4de935d6a256f13f8ab44079e66b92a84d10eda57fdc848f2c6bae1297fe0d5f",
+    "previous_release_path": "05.PRS_CS_construction/02b.PRS-CS_run_groups.sh",
+    "path_before_numbering": "prs_construction/run_mdd_variant_sets.sh"
+  },
+  {
+    "path": "prs_construction/07_run_related_trait_prscs.sh",
+    "source": "original_code/05.PRS_CS_construction/02c.PRS-CS_other_traits.sh",
+    "source_sha256": "7d1933121a9319f17a2bcf29224102c10f86aee08e44a815e2dcf875cfec3cc2",
+    "changes": [
+      "Configured paths, executable locations and repository discovery; removed site-specific module/partition requirements.",
+      "Removed named personal conda environment and added scheduler-spool repository discovery.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "3bf0e46368fb5dba46ee532cfda0ef0776d2c8cb481688fe54076e34839067cd",
+    "previous_release_path": "05.PRS_CS_construction/02c.PRS-CS_other_traits.sh",
+    "path_before_numbering": "prs_construction/run_related_trait_prscs.sh"
+  },
+  {
+    "path": "prs_construction/08_run_related_trait_variant_sets.sh",
+    "source": "original_code/05.PRS_CS_construction/02d.PRS-CS_MDDcoef_alttraitset.sh",
+    "source_sha256": "b96e42119e7d74289bbc7ef7126c92b20e218b24e6798f3d3c6b7b7212ea9859",
+    "changes": [
+      "Configured paths, executable locations and repository discovery; removed site-specific module/partition requirements.",
+      "Removed named personal conda environment and added scheduler-spool repository discovery.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "0ab8aa9a20719013d7a41641d5739fc57dc08b2852479a1c823640a2c8f1082e",
+    "previous_release_path": "05.PRS_CS_construction/02d.PRS-CS_MDDcoef_alttraitset.sh",
+    "path_before_numbering": "prs_construction/run_related_trait_variant_sets.sh"
+  },
+  {
+    "path": "prs_construction/09_run_related_trait_effect_sizes.sh",
+    "source": "original_code/05.PRS_CS_construction/02e.PRS-CS_MDDsets_othertraitcoef.sh",
+    "source_sha256": "7d8d15a7698b22179a1b8efbf1a9f27f8e45a22c822801ead8c6f6008033993d",
+    "changes": [
+      "Configured paths, executable locations and repository discovery; removed site-specific module/partition requirements.",
+      "Removed named personal conda environment and added scheduler-spool repository discovery.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "36be91207a0e3d1b1b79c4251b5e9638db9b1fea48014861ac5bdbf346562ae4",
+    "previous_release_path": "05.PRS_CS_construction/02e.PRS-CS_MDDsets_othertraitcoef.sh",
+    "path_before_numbering": "prs_construction/run_related_trait_effect_sizes.sh"
+  },
+  {
+    "path": "prs_construction/10_combine_chromosome_weights.R",
+    "source": "original_code/05.PRS_CS_construction/03.Combine_PRS-CS_chrom.R",
+    "source_sha256": "6929324377c9733a6b6a0cf55a24b1b848bf513a03b1cca3791de6630a136afd",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "2293c814ab0840a8c7a05d144e0a02681d2df573729fb317322ad28f9db01b67",
+    "previous_release_path": "05.PRS_CS_construction/03.Combine_PRS-CS_chrom.R",
+    "path_before_numbering": "prs_construction/combine_chromosome_weights.R"
+  },
+  {
+    "path": "prs_construction/11_score_mdd_prs.R",
+    "source": "original_code/05.PRS_CS_construction/04.PRS-CS_predictions.R",
+    "source_sha256": "1b20e5c7f463edb25264e5341173079d7d1e8ce4d99b32cbc04070089146820a",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "db757b1e9e44647be67c910e4700077ea939392d3ae891b235e128835a248e3e",
+    "previous_release_path": "05.PRS_CS_construction/04.PRS-CS_predictions.R",
+    "path_before_numbering": "prs_construction/score_mdd_prs.R"
+  },
+  {
+    "path": "prs_construction/11_score_mdd_prs.sh",
+    "source": "original_code/05.PRS_CS_construction/04.PRS-CS_predictions.sh",
+    "source_sha256": "0886cb25bcaa94083cb1513144dfa31aa265fef3aa2f4d261cca730f8ed7ef1f",
+    "changes": [
+      "Configured paths, executable locations and repository discovery; removed site-specific module/partition requirements.",
+      "Removed named personal conda environment and added scheduler-spool repository discovery.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "702e96751ca8247d9e8ae7ad35f0ce15708073239bbaafc841c116a33282cd5e",
+    "previous_release_path": "05.PRS_CS_construction/04.PRS-CS_predictions.sh",
+    "path_before_numbering": "prs_construction/score_mdd_prs.sh"
+  },
+  {
+    "path": "prs_construction/12_score_mdd_variant_sets.R",
+    "source": "original_code/05.PRS_CS_construction/04.PRS-CS_predictions_group.R",
+    "source_sha256": "4bb37460c2579b32547edea959400acbb224b92b95745e268aa7cf60708ad7c3",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "10d9ab607dcb3e4f58349d80aeef832dea06adf3a27b70844d88daf6d80037ef",
+    "previous_release_path": "05.PRS_CS_construction/04.PRS-CS_predictions_group.R",
+    "path_before_numbering": "prs_construction/score_mdd_variant_sets.R"
+  },
+  {
+    "path": "prs_construction/12_score_mdd_variant_sets.sh",
+    "source": "original_code/05.PRS_CS_construction/04.PRS-CS_predictions_group.sh",
+    "source_sha256": "3652890426d55272b94a81d2b43b2bba0c70675c13b5c97eb55f7b9ba806792d",
+    "changes": [
+      "Configured paths, executable locations and repository discovery; removed site-specific module/partition requirements.",
+      "Removed named personal conda environment and added scheduler-spool repository discovery.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "5349bf25f492bab4fd2dbd0d24bc27b940c385f81eca1a649893d6233c60e24d",
+    "previous_release_path": "05.PRS_CS_construction/04.PRS-CS_predictions_group.sh",
+    "path_before_numbering": "prs_construction/score_mdd_variant_sets.sh"
+  },
+  {
+    "path": "prs_construction/13_score_related_trait_prs.R",
+    "source": "original_code/05.PRS_CS_construction/04b.PRS-CS_predictions_alttraits.R",
+    "source_sha256": "5e1a18af7a796faa3bfd07c7d1c3661e909b19a957ce67cffaf425ec33684de7",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "c922bfab64d6d69ca44e9b7d5c5b180db4cb1721b4dc6afba13fab3714f33177",
+    "previous_release_path": "05.PRS_CS_construction/04b.PRS-CS_predictions_alttraits.R",
+    "path_before_numbering": "prs_construction/score_related_trait_prs.R"
+  },
+  {
+    "path": "prs_construction/13_score_related_trait_prs.sh",
+    "source": "original_code/05.PRS_CS_construction/04b.PRS-CS_predictions_alttraits.sh",
+    "source_sha256": "1a6be657851f5d17e81f063985863feec089053ecdee0a698e7e3c17a279eabe",
+    "changes": [
+      "Configured paths, executable locations and repository discovery; removed site-specific module/partition requirements.",
+      "Removed named personal conda environment and added scheduler-spool repository discovery.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "8dd3a75e88ceb2d46b204a2baaf58e763439c29772aed42acf32776b2c5e719a",
+    "previous_release_path": "05.PRS_CS_construction/04b.PRS-CS_predictions_alttraits.sh",
+    "path_before_numbering": "prs_construction/score_related_trait_prs.sh"
+  },
+  {
+    "path": "prs_construction/14_score_related_trait_variant_sets.R",
+    "source": "original_code/05.PRS_CS_construction/04c.PRS-CS_predictions_alttraitset_MDDcoef.R",
+    "source_sha256": "fbec6fb5ebf38cd90fddd97c261a8903e846cf0bbcb071a657d195db38a25034",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "27bb16d1d14aa9572d8ad0cc87c721e383cff791c7f12c7fb0e216edcf2856b9",
+    "previous_release_path": "05.PRS_CS_construction/04c.PRS-CS_predictions_alttraitset_MDDcoef.R",
+    "path_before_numbering": "prs_construction/score_related_trait_variant_sets.R"
+  },
+  {
+    "path": "prs_construction/14_score_related_trait_variant_sets.sh",
+    "source": "original_code/05.PRS_CS_construction/04c.PRS-CS_predictions_alttraitset_MDDcoef.sh",
+    "source_sha256": "4ed317b7d4524eefafe5d6b0f941dcbe5bc65cf514f2dc9960d20909ae9ba82b",
+    "changes": [
+      "Configured paths, executable locations and repository discovery; removed site-specific module/partition requirements.",
+      "Removed named personal conda environment and added scheduler-spool repository discovery.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "e6b1b4dd852038e9abee7d1bd36d520ea373652e2ff913fff8c0da72c35d96ed",
+    "previous_release_path": "05.PRS_CS_construction/04c.PRS-CS_predictions_alttraitset_MDDcoef.sh",
+    "path_before_numbering": "prs_construction/score_related_trait_variant_sets.sh"
+  },
+  {
+    "path": "prs_construction/15_score_related_trait_effect_sizes.R",
+    "source": "original_code/05.PRS_CS_construction/04d.PRS-CS_predictions_MDDset_alttraitcoef.R",
+    "source_sha256": "be19943e019b8c504b345d51f0689137b981115712511d74e14f0bd804f5a17f",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "2239e06443386dd04638d1a8245eeb1a0e7171b1c6f5f71e72e78f212463cc84",
+    "previous_release_path": "05.PRS_CS_construction/04d.PRS-CS_predictions_MDDset_alttraitcoef.R",
+    "path_before_numbering": "prs_construction/score_related_trait_effect_sizes.R"
+  },
+  {
+    "path": "prs_construction/15_score_related_trait_effect_sizes.sh",
+    "source": "original_code/05.PRS_CS_construction/04d.PRS-CS_predictions_MDDset_alttraitcoef.sh",
+    "source_sha256": "5d34682898e4736bf282e1d39addcdd993170fad5df81b3471918089c3a1f4ae",
+    "changes": [
+      "Configured paths, executable locations and repository discovery; removed site-specific module/partition requirements.",
+      "Removed named personal conda environment and added scheduler-spool repository discovery.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "d37a7b35e337e1bd08020bb0745b542e1ce91d30c3a637002f3f1bab294a8fda",
+    "previous_release_path": "05.PRS_CS_construction/04d.PRS-CS_predictions_MDDset_alttraitcoef.sh",
+    "path_before_numbering": "prs_construction/score_related_trait_effect_sizes.sh"
+  },
+  {
+    "path": "prs_construction/16_collect_mdd_scores.R",
+    "source": "original_code/05.PRS_CS_construction/05.PRS-CS_results.R",
+    "source_sha256": "b73982642d9a4361bfa455808b118b57406baa547dcaec7fea2a5cb4697cc0a6",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Replaced undefined error sentinels with explicit stop() calls.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "9889565211f99fb76e12f6e0ef442a8e5afc6c80e9d1b32ff13a2c95999509b2",
+    "previous_release_path": "05.PRS_CS_construction/05.PRS-CS_results.R",
+    "path_before_numbering": "prs_construction/collect_mdd_scores.R"
+  },
+  {
+    "path": "prs_construction/17_collect_related_trait_scores.R",
+    "source": "original_code/05.PRS_CS_construction/05.PRS-CS_results_alttraits.R",
+    "source_sha256": "da5bf8da3f8e6e319db63b6168b8b443ec158e89a171c452eb1eb96044411ac7",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Replaced undefined error sentinels with explicit stop() calls.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "f6b96246871f4dd9de859d89bb05e32bd3451d83a1369bef13706fddcc310655",
+    "previous_release_path": "05.PRS_CS_construction/05.PRS-CS_results_alttraits.R",
+    "path_before_numbering": "prs_construction/collect_related_trait_scores.R"
+  },
+  {
+    "path": "prs_construction/18_prepare_mdd_evaluation_data.R",
+    "source": "original_code/05.PRS_CS_construction/06.Clean_Results.R",
+    "source_sha256": "014fcde5e4626aaeb1818c21ee888ce34d085fe305170d635798e549a1fd728b",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "ef07e21e0c14448ec0b57ba7d7634c7a530a788c594f116a89eda02740fdd7c6",
+    "previous_release_path": "05.PRS_CS_construction/06.Clean_Results.R",
+    "path_before_numbering": "prs_construction/prepare_mdd_evaluation_data.R"
+  },
+  {
+    "path": "prs_construction/19_prepare_ancestry_evaluation_data.R",
+    "source": "original_code/05.PRS_CS_construction/07.Clean_Results_AltAncestries.R",
+    "source_sha256": "da13093259ece41df3bfcfe2437362a5490222e31884dde3cacc9c0633051874",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "a06f3342bc89c85c1f055b13a0772f91e183860cbcf8b30e5e84ebd6bcd636d4",
+    "previous_release_path": "05.PRS_CS_construction/07.Clean_Results_AltAncestries.R",
+    "path_before_numbering": "prs_construction/prepare_ancestry_evaluation_data.R"
+  },
+  {
+    "path": "prs_construction/20_prepare_related_trait_ancestry_data.R",
+    "source": "original_code/05.PRS_CS_construction/08.Clean_AltTrait_AltAncestry.R",
+    "source_sha256": "ceb2ced0987980626ffa6cee33514b2b91a403ab5c646e771360f246bc8b11a4",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "3f8cb015ae7ea04200b41220c18f1f666068643df797f423e3ca3b9e9af4efc8",
+    "previous_release_path": "05.PRS_CS_construction/08.Clean_AltTrait_AltAncestry.R",
+    "path_before_numbering": "prs_construction/prepare_related_trait_ancestry_data.R"
+  },
+  {
+    "path": "prs_construction/21_prepare_related_trait_eur_data.R",
+    "source": "original_code/05.PRS_CS_construction/08B.Clean_AltTrait_EurAncestry.R",
+    "source_sha256": "c8f27f4c22bb6b95b2d9afe314ac01ed107a02fe62133d09afb1da0f4c62c918",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "76e5268b2915535bc942bf34ecc0675fc7da238558b67095747d434bd11c9077",
+    "previous_release_path": "05.PRS_CS_construction/08B.Clean_AltTrait_EurAncestry.R",
+    "path_before_numbering": "prs_construction/prepare_related_trait_eur_data.R"
+  },
+  {
+    "path": "prs_construction/22_evaluate_ancestry_prs.R",
+    "source": "original_code/05.PRS_CS_construction/09.Calc_Perf_AltAncestry.R",
+    "source_sha256": "87af240e703d69e995576d3b58b3be6952b120e696a1f62869e3ae5401042075",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "02c4b3c8bc2b390adc7fa622004bdf6ebf1fdd7ee0720b37ef70229d4ae91c57",
+    "previous_release_path": "05.PRS_CS_construction/09.Calc_Perf_AltAncestry.R",
+    "path_before_numbering": "prs_construction/evaluate_ancestry_prs.R"
+  },
+  {
+    "path": "prs_construction/23_calculate_allele_frequencies.R",
+    "source": "original_code/05.PRS_CS_construction/10.Calc_MAF.R",
+    "source_sha256": "a42b3845d7673d7364d54a09499ede5edcc4ca52e84ad383444b861859d6dfbf",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "7f8fc745701eb39e8e03a1fd9408d40d9fd6638965d3b1738bbf5df07f035538",
+    "previous_release_path": "05.PRS_CS_construction/10.Calc_MAF.R",
+    "path_before_numbering": "prs_construction/calculate_allele_frequencies.R"
+  },
+  {
+    "path": "prs_construction/23_calculate_allele_frequencies.sh",
+    "source": "original_code/05.PRS_CS_construction/10.Calc_MAF.sh",
+    "source_sha256": "115ab414709d31221b4ed4ad72c3af9bf9fe425c88306e48fa558c8b0a0e9d23",
+    "changes": [
+      "Configured paths, executable locations and repository discovery; removed site-specific module/partition requirements.",
+      "Removed named personal conda environment and added scheduler-spool repository discovery.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "13e020a4b5f46adebea851c0c3e51c0a1ea77adf32ec6f7ad827ca575e4d6d70",
+    "previous_release_path": "05.PRS_CS_construction/10.Calc_MAF.sh",
+    "path_before_numbering": "prs_construction/calculate_allele_frequencies.sh"
+  },
+  {
+    "path": "prs_construction/24_summarize_allele_frequencies.R",
+    "source": "original_code/05.PRS_CS_construction/11.Examine_MAF.R",
+    "source_sha256": "4125cf7589508de1d8937c5d3a91f84e003fbfafd4d090399048dd600038620f",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "bc19c7b04fb5cda4dbedad50a8864294a71b9b764ccf1c4e0c61b6d9c363b867",
+    "previous_release_path": "05.PRS_CS_construction/11.Examine_MAF.R",
+    "path_before_numbering": "prs_construction/summarize_allele_frequencies.R"
+  },
+  {
+    "path": "elastic_net/multi_trait/01_train_models.R",
+    "source": "original_code/06.Elastic_Net/multi_trait/01.Train_ElasticNet_multitrait.R",
+    "source_sha256": "b87da30b9b4222ef61d18337d6e972980f544a0fea0870a9b1fb2ae3526dafee",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Replaced undefined error sentinels with explicit stop() calls.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "10f2c622bc42f310977c5fbc461998ba99a3e34e92dff26bd179faff55fe2b8c",
+    "previous_release_path": "06.Elastic_Net/multi_trait/01.Train_ElasticNet_multitrait.R",
+    "path_before_numbering": "elastic_net/multi_trait/train_models.R"
+  },
+  {
+    "path": "elastic_net/multi_trait/01_train_models.sh",
+    "source": "original_code/06.Elastic_Net/multi_trait/01.Train_ElasticNet_multitrait.sh",
+    "source_sha256": "c5e19c4efdd12fc30c19b369696d60534d2be02e25195e9a540a85a35ecc3747",
+    "changes": [
+      "Configured paths, executable locations and repository discovery; removed site-specific module/partition requirements.",
+      "Removed named personal conda environment and added scheduler-spool repository discovery.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "a28b8a5c6eb00c5615800418c351e52be6993a13948011cae8274a338dccaa27",
+    "previous_release_path": "06.Elastic_Net/multi_trait/01.Train_ElasticNet_multitrait.sh",
+    "path_before_numbering": "elastic_net/multi_trait/train_models.sh"
+  },
+  {
+    "path": "elastic_net/multi_trait/02_predict_prs.R",
+    "source": "original_code/06.Elastic_Net/multi_trait/02.Apply_covar0_multitrait.R",
+    "source_sha256": "0cad1ef6fcc086da8f06f0373763e95496554e62a4a800b2d8e55b4d1e1b1221",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Replaced undefined error sentinels with explicit stop() calls.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "6dc0bcd2588ecc57c3ea5bfb96d44a576d0ee17cd09e9f0c8d4b47d4df3ec25f",
+    "previous_release_path": "06.Elastic_Net/multi_trait/02.Apply_covar0_multitrait.R",
+    "path_before_numbering": "elastic_net/multi_trait/predict_prs.R"
+  },
+  {
+    "path": "elastic_net/multi_trait/02_predict_prs.sh",
+    "source": "original_code/06.Elastic_Net/multi_trait/02.Apply_covar0_multitrait.sh",
+    "source_sha256": "415dcdae46946559d86a82f3ffaceb878f6fa6928560b4ef9e19ddfbd91d00e2",
+    "changes": [
+      "Configured paths, executable locations and repository discovery; removed site-specific module/partition requirements.",
+      "Removed named personal conda environment and added scheduler-spool repository discovery.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "06f53e60889a54acdf271940c06294c7b7770486db860415f4c346bd12506a92",
+    "previous_release_path": "06.Elastic_Net/multi_trait/02.Apply_covar0_multitrait.sh",
+    "path_before_numbering": "elastic_net/multi_trait/predict_prs.sh"
+  },
+  {
+    "path": "elastic_net/multi_trait/03_collect_predictions.R",
+    "source": "original_code/06.Elastic_Net/multi_trait/03.Clean_Results.R",
+    "source_sha256": "cd79a557154fbd06591854424e3fd2757ec5ff3313fb9348bf9b449509934de6",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "1ea5d6593cce409373799f72ee14e209ad4b8b464c6004a95907d541a08c810b",
+    "previous_release_path": "06.Elastic_Net/multi_trait/03.Clean_Results.R",
+    "path_before_numbering": "elastic_net/multi_trait/collect_predictions.R"
+  },
+  {
+    "path": "elastic_net/multi_trait/04_evaluate_models.R",
+    "source": "original_code/06.Elastic_Net/multi_trait/04.Calculate_Performance.R",
+    "source_sha256": "d8755e405fcf49e1302f9db42c9d4f6b39b606c00d55b2798b641ae2da4aa478",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "90cc4e1a5e3207a4922ebc1fa30a78881121eba210aee2568e5934ecf341c498",
+    "previous_release_path": "06.Elastic_Net/multi_trait/04.Calculate_Performance.R",
+    "path_before_numbering": "elastic_net/multi_trait/evaluate_models.R"
+  },
+  {
+    "path": "elastic_net/multi_trait/05_summarize_coefficients.R",
+    "source": "original_code/06.Elastic_Net/multi_trait/05.Summarise_Number_Nonzero_Coef.R",
+    "source_sha256": "a8086eda5be6d0d42a09e5f271928702c19c8ee55086401668216d844aeb71db",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "01ab1072af3a90f4d881f721041409cc4a658e51164eb41141a8472c05f8b2a1",
+    "previous_release_path": "06.Elastic_Net/multi_trait/05.Summarise_Number_Nonzero_Coef.R",
+    "path_before_numbering": "elastic_net/multi_trait/summarize_coefficients.R"
+  },
+  {
+    "path": "elastic_net/multi_trait/06_predict_other_ancestries.R",
+    "source": "original_code/06.Elastic_Net/multi_trait/06.Apply_AltAncestry.R",
+    "source_sha256": "a520a9a6f32d14d1b7fb96c09b64275f11f6ef1cce425418f009cbb64645ab0a",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "cbeed69c09ff314ecf04ef5755318f4db71ccbf9ac1ba365d7adc783fb46fb2f",
+    "previous_release_path": "06.Elastic_Net/multi_trait/06.Apply_AltAncestry.R",
+    "path_before_numbering": "elastic_net/multi_trait/predict_other_ancestries.R"
+  },
+  {
+    "path": "elastic_net/multi_trait/07_collect_ancestry_predictions.R",
+    "source": "original_code/06.Elastic_Net/multi_trait/07.Clean_AltAncestry.R",
+    "source_sha256": "db98ba5cc07821d772016fcedcaaac1be1a0053c4308678cfb33d0156008ef15",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "9ec4ce73a7939f6b589647117fc050190aa640f89357612606b78ab0e412b101",
+    "previous_release_path": "06.Elastic_Net/multi_trait/07.Clean_AltAncestry.R",
+    "path_before_numbering": "elastic_net/multi_trait/collect_ancestry_predictions.R"
+  },
+  {
+    "path": "elastic_net/multi_trait/08_evaluate_other_ancestries.R",
+    "source": "original_code/06.Elastic_Net/multi_trait/08.Calculate_Performance_AltAncestry.R",
+    "source_sha256": "16d4028b68fd6203bf814d9c1d92f1559fc4f3bb039d76484e7fb005dc25ee41",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "c9e4d04015a524af6e4d203293383aa69f78a06209a3d71464224e1024afbfa9",
+    "previous_release_path": "06.Elastic_Net/multi_trait/08.Calculate_Performance_AltAncestry.R",
+    "path_before_numbering": "elastic_net/multi_trait/evaluate_other_ancestries.R"
+  },
+  {
+    "path": "elastic_net/cross_trait_variant_sets/01_train_models.R",
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDcoef_alttraitset/01.Train_ElasticNet_MDDcoef_alttraitset.R",
+    "source_sha256": "a6fbf4d1d14133e52ae7434dc6425996f6281464737fcb1cad9331449fcfcb06",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Replaced undefined error sentinels with explicit stop() calls.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "f1d3643d9754fc5171f94b6784760a2e70e0ef5003ce4e934ba8300f6e7452f6",
+    "previous_release_path": "06.Elastic_Net/multi_trait_MDDcoef_alttraitset/01.Train_ElasticNet_MDDcoef_alttraitset.R",
+    "path_before_numbering": "elastic_net/cross_trait_variant_sets/train_models.R"
+  },
+  {
+    "path": "elastic_net/cross_trait_variant_sets/01_train_models.sh",
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDcoef_alttraitset/01.Train_ElasticNet_MDDcoef_alttraitset.sh",
+    "source_sha256": "204c2b1582d02ce4fee7bbeb374b374ef463bcf587dc8cd037bfa410f187cfcb",
+    "changes": [
+      "Configured paths, executable locations and repository discovery; removed site-specific module/partition requirements.",
+      "Removed named personal conda environment and added scheduler-spool repository discovery.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "e975397045a7b52a58c6cf3904d6ffc197d772230ce2abbdcff83082fc92f434",
+    "previous_release_path": "06.Elastic_Net/multi_trait_MDDcoef_alttraitset/01.Train_ElasticNet_MDDcoef_alttraitset.sh",
+    "path_before_numbering": "elastic_net/cross_trait_variant_sets/train_models.sh"
+  },
+  {
+    "path": "elastic_net/cross_trait_variant_sets/02_predict_prs.R",
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDcoef_alttraitset/02.Apply_covar0_MDDset_alttraitset.R",
+    "source_sha256": "ec3969c11c6272e6207373208b085b462ec47efda64a0ec864992d3edafc0860",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Replaced undefined error sentinels with explicit stop() calls.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "03e0069cbe5d75dd7454af2be79b7b1740c7b667999a2df05c6214035a985881",
+    "previous_release_path": "06.Elastic_Net/multi_trait_MDDcoef_alttraitset/02.Apply_covar0_MDDset_alttraitset.R",
+    "path_before_numbering": "elastic_net/cross_trait_variant_sets/predict_prs.R"
+  },
+  {
+    "path": "elastic_net/cross_trait_variant_sets/02_predict_prs.sh",
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDcoef_alttraitset/02.Apply_covar0_MDDset_alttraitset.sh",
+    "source_sha256": "d48387aa7e591e9f981e6e9da60ebb0e0eb1ca0b5e990bc4395b769829f2af3e",
+    "changes": [
+      "Configured paths, executable locations and repository discovery; removed site-specific module/partition requirements.",
+      "Removed named personal conda environment and added scheduler-spool repository discovery.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "95192022156d0a6e8b470eedb5ce5b987b55d43e1439bc9207d15eaa5b1c29e7",
+    "previous_release_path": "06.Elastic_Net/multi_trait_MDDcoef_alttraitset/02.Apply_covar0_MDDset_alttraitset.sh",
+    "path_before_numbering": "elastic_net/cross_trait_variant_sets/predict_prs.sh"
+  },
+  {
+    "path": "elastic_net/cross_trait_variant_sets/03_collect_predictions.R",
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDcoef_alttraitset/03.Clean_Results.R",
+    "source_sha256": "f444197fa576f0992d0dfd8c19ce14b5eb919fdb35b9feed11732fe1994dc4c3",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "5bcc1b2235c4a8f89ec861f12a63d29eb9380953f796c00c9132c4c0e9a8ccb6",
+    "previous_release_path": "06.Elastic_Net/multi_trait_MDDcoef_alttraitset/03.Clean_Results.R",
+    "path_before_numbering": "elastic_net/cross_trait_variant_sets/collect_predictions.R"
+  },
+  {
+    "path": "elastic_net/cross_trait_variant_sets/04_evaluate_models.R",
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDcoef_alttraitset/04.Calculate_Performance.R",
+    "source_sha256": "9c773736737f7bab71e0afe2c52ef50d40336fb475dc42e4d706e699434ce65e",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "84cfc26e5230e8b4b4f809d108cd2c198d40b3c20593d27521448418993313b6",
+    "previous_release_path": "06.Elastic_Net/multi_trait_MDDcoef_alttraitset/04.Calculate_Performance.R",
+    "path_before_numbering": "elastic_net/cross_trait_variant_sets/evaluate_models.R"
+  },
+  {
+    "path": "elastic_net/cross_trait_variant_sets/05_summarize_coefficients.R",
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDcoef_alttraitset/05.Summarise_Number_Nonzero_Coef.R",
+    "source_sha256": "c3895eb8a2b3a6c9a9e902ac9c0f6ebf41d226c95dfe7878212b3a7a2256820e",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "dcf8ddc8322fd8b29d4c0650b0cc2853c78de6cc7788d031917521cbf8a8c9f7",
+    "previous_release_path": "06.Elastic_Net/multi_trait_MDDcoef_alttraitset/05.Summarise_Number_Nonzero_Coef.R",
+    "path_before_numbering": "elastic_net/cross_trait_variant_sets/summarize_coefficients.R"
+  },
+  {
+    "path": "elastic_net/cross_trait_variant_sets/06_predict_other_ancestries.R",
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDcoef_alttraitset/06.Apply_AltAncestry.R",
+    "source_sha256": "67e6176ee3c8c747ea961dc66869175a37f051df2c5c1f2b336e8d3d571b3d68",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "d948b47a174c946b54c5c35142bdb4433b335c7bdf35838372850175514d20e9",
+    "previous_release_path": "06.Elastic_Net/multi_trait_MDDcoef_alttraitset/06.Apply_AltAncestry.R",
+    "path_before_numbering": "elastic_net/cross_trait_variant_sets/predict_other_ancestries.R"
+  },
+  {
+    "path": "elastic_net/cross_trait_variant_sets/07_collect_ancestry_predictions.R",
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDcoef_alttraitset/07.Clean_AltAncestry.R",
+    "source_sha256": "161c63f3ac28676d7332a27a1b4056437688c8786482d06b552138b2f6dffb46",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "96007d2e6dc5ef05ec6bdeabea700832c57672f165be31147b5d77b337dd6e97",
+    "previous_release_path": "06.Elastic_Net/multi_trait_MDDcoef_alttraitset/07.Clean_AltAncestry.R",
+    "path_before_numbering": "elastic_net/cross_trait_variant_sets/collect_ancestry_predictions.R"
+  },
+  {
+    "path": "elastic_net/cross_trait_variant_sets/08_evaluate_other_ancestries.R",
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDcoef_alttraitset/08.Calculate_Perf_AltAncestry.R",
+    "source_sha256": "cbfc2ec0c27b62a087217faed26b47abc3aba00b052724b1e3fbd423751bbb9e",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "539e7fa261ee6b564e78b445d2e65e9a88edb0609349e4852456d05dedf33851",
+    "previous_release_path": "06.Elastic_Net/multi_trait_MDDcoef_alttraitset/08.Calculate_Perf_AltAncestry.R",
+    "path_before_numbering": "elastic_net/cross_trait_variant_sets/evaluate_other_ancestries.R"
+  },
+  {
+    "path": "elastic_net/cross_trait_effect_sizes/01_train_models.R",
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDset_alttraitcoef/01.Train_ElasticNet_MDDset_alttraitcoef.R",
+    "source_sha256": "d3ee5c55e19e60391e8ba006992a8a4747dcc77fc1b06d630a9ba5510b6f9abb",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Replaced undefined error sentinels with explicit stop() calls.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "9b0b602ef0c7671c9a278105b68f0c5af1273bebb637451be6286252aa0ae879",
+    "previous_release_path": "06.Elastic_Net/multi_trait_MDDset_alttraitcoef/01.Train_ElasticNet_MDDset_alttraitcoef.R",
+    "path_before_numbering": "elastic_net/cross_trait_effect_sizes/train_models.R"
+  },
+  {
+    "path": "elastic_net/cross_trait_effect_sizes/01_train_models.sh",
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDset_alttraitcoef/01.Train_ElasticNet_MDDset_alttraitcoef.sh",
+    "source_sha256": "06e351e1250a187c3c7d20b82d8a240558c2c55bb600d80cf2bb74b99730cccb",
+    "changes": [
+      "Configured paths, executable locations and repository discovery; removed site-specific module/partition requirements.",
+      "Removed named personal conda environment and added scheduler-spool repository discovery.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "6b7f0fcf90e5fbe5b362a8379a8b09020881b766f73637086e8a18723f2cc609",
+    "previous_release_path": "06.Elastic_Net/multi_trait_MDDset_alttraitcoef/01.Train_ElasticNet_MDDset_alttraitcoef.sh",
+    "path_before_numbering": "elastic_net/cross_trait_effect_sizes/train_models.sh"
+  },
+  {
+    "path": "elastic_net/cross_trait_effect_sizes/02_predict_prs.R",
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDset_alttraitcoef/02.Apply_covar0_MDDset_alttraitcoef.R",
+    "source_sha256": "7594150d165c75c499e860d963493d43b66fdff9ad8b818b1fd06ee73d9b1534",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Replaced undefined error sentinels with explicit stop() calls.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "cf4d7d858d40d2efae96eef549f052c4a04b6b1a428da89b46f9aa677383afbb",
+    "previous_release_path": "06.Elastic_Net/multi_trait_MDDset_alttraitcoef/02.Apply_covar0_MDDset_alttraitcoef.R",
+    "path_before_numbering": "elastic_net/cross_trait_effect_sizes/predict_prs.R"
+  },
+  {
+    "path": "elastic_net/cross_trait_effect_sizes/02_predict_prs.sh",
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDset_alttraitcoef/02.Apply_covar0_MDDset_alttraitcoef.sh",
+    "source_sha256": "ff712a0c629b7a3e2c4085c16fa1f541634cccee5aafb88e0c7e1ce6dfa19a4b",
+    "changes": [
+      "Configured paths, executable locations and repository discovery; removed site-specific module/partition requirements.",
+      "Removed named personal conda environment and added scheduler-spool repository discovery.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "023324d9c64f130c2db3628fca8b8ca1ce6ee277d00319f7c76f008bc5f2d041",
+    "previous_release_path": "06.Elastic_Net/multi_trait_MDDset_alttraitcoef/02.Apply_covar0_MDDset_alttraitcoef.sh",
+    "path_before_numbering": "elastic_net/cross_trait_effect_sizes/predict_prs.sh"
+  },
+  {
+    "path": "elastic_net/cross_trait_effect_sizes/03_collect_predictions.R",
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDset_alttraitcoef/03.Clean_Results.R",
+    "source_sha256": "0d77220f4531b1c8832d827a1f3f4e0d1f9b9b735478d4ccf975abe699959c18",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "cbeea2e84f21a845bd7ed66d9032d2a832cd7a3796da15d899cbaea46dca498e",
+    "previous_release_path": "06.Elastic_Net/multi_trait_MDDset_alttraitcoef/03.Clean_Results.R",
+    "path_before_numbering": "elastic_net/cross_trait_effect_sizes/collect_predictions.R"
+  },
+  {
+    "path": "elastic_net/cross_trait_effect_sizes/04_evaluate_models.R",
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDset_alttraitcoef/04.Calculate_Performance.R",
+    "source_sha256": "29f6b02b813559995f20dd8add056582800f4fcd71abbca85af168cc4924dc9b",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "cc222d15db4af501f165d0ed4d661636ad3ad3cd1a5a805f94536835db4c72a3",
+    "previous_release_path": "06.Elastic_Net/multi_trait_MDDset_alttraitcoef/04.Calculate_Performance.R",
+    "path_before_numbering": "elastic_net/cross_trait_effect_sizes/evaluate_models.R"
+  },
+  {
+    "path": "elastic_net/cross_trait_effect_sizes/05_summarize_coefficients.R",
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDset_alttraitcoef/05.Summarise_Number_Nonzero_Coef.R",
+    "source_sha256": "b07eb53c5ba8da07001e70cbe2b110fdd9439fc2cf428b8d4d0283951b2327c6",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "9dd95600199bb6e381a353ffdfe89d50d8675be915d0974b6a9b682000591f80",
+    "previous_release_path": "06.Elastic_Net/multi_trait_MDDset_alttraitcoef/05.Summarise_Number_Nonzero_Coef.R",
+    "path_before_numbering": "elastic_net/cross_trait_effect_sizes/summarize_coefficients.R"
+  },
+  {
+    "path": "elastic_net/cross_trait_effect_sizes/06_predict_other_ancestries.R",
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDset_alttraitcoef/06.Apply_AltAncestry.R",
+    "source_sha256": "b96e3e4103a1022c7ab93d541f1e4bfee73a4441d65daa7f24d594f327c34e2e",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "ec4833627fb146d2ccc2eaf7add473b0e85df4892163a0c4a029173dd4e9ec65",
+    "previous_release_path": "06.Elastic_Net/multi_trait_MDDset_alttraitcoef/06.Apply_AltAncestry.R",
+    "path_before_numbering": "elastic_net/cross_trait_effect_sizes/predict_other_ancestries.R"
+  },
+  {
+    "path": "elastic_net/cross_trait_effect_sizes/07_collect_ancestry_predictions.R",
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDset_alttraitcoef/07.Clean_AltAncestry.R",
+    "source_sha256": "513970a3f2e3f4348ab94c29e3f0b9c8ab43761b9d40f9e7153902472c3017e4",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "91c76b807d26962b071f39187e779b3943a25895b00a9a51029718b9c7d4076d",
+    "previous_release_path": "06.Elastic_Net/multi_trait_MDDset_alttraitcoef/07.Clean_AltAncestry.R",
+    "path_before_numbering": "elastic_net/cross_trait_effect_sizes/collect_ancestry_predictions.R"
+  },
+  {
+    "path": "elastic_net/cross_trait_effect_sizes/08_evaluate_other_ancestries.R",
+    "source": "original_code/06.Elastic_Net/multi_trait_MDDset_alttraitcoef/08.Calc_Perf_AltAncestry.R",
+    "source_sha256": "8c836918db1924b1c072c0b9c8c5c5d76011fa8f97dfe94b952aef5b928cae63",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "0f3d8447d10c74d3823235d139efb0580f874c0876a5278776a6f4e4887fa693",
+    "previous_release_path": "06.Elastic_Net/multi_trait_MDDset_alttraitcoef/08.Calc_Perf_AltAncestry.R",
+    "path_before_numbering": "elastic_net/cross_trait_effect_sizes/evaluate_other_ancestries.R"
+  },
+  {
+    "path": "elastic_net/mdd_only/01_train_models.R",
+    "source": "original_code/06.Elastic_Net/single_trait/01.Train_ElasticNet.R",
+    "source_sha256": "082cb7df6a7de603eb0546892b62cfeb907b7c1ff3c0f191f8130e8f9a8838cc",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Replaced undefined error sentinels with explicit stop() calls.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "bd2c2ecf380f10d8e4663fbdd6eb3e314fe2fed727ce997fe00ab0f7b8575182",
+    "previous_release_path": "06.Elastic_Net/single_trait/01.Train_ElasticNet.R",
+    "path_before_numbering": "elastic_net/mdd_only/train_models.R"
+  },
+  {
+    "path": "elastic_net/mdd_only/01_train_models.sh",
+    "source": "original_code/06.Elastic_Net/single_trait/01.Train_ElasticNet.sh",
+    "source_sha256": "cdef923dec19259cb079eda39b8b3bab5e3b1b4a8e45adf652e18bc79ceea237",
+    "changes": [
+      "Configured paths, executable locations and repository discovery; removed site-specific module/partition requirements.",
+      "Removed named personal conda environment and added scheduler-spool repository discovery.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "96340f808e2a15eb6ecd48f29515fb1dd94213717b0521be1ee80800a438ea9d",
+    "previous_release_path": "06.Elastic_Net/single_trait/01.Train_ElasticNet.sh",
+    "path_before_numbering": "elastic_net/mdd_only/train_models.sh"
+  },
+  {
+    "path": "elastic_net/mdd_only/02_predict_prs.R",
+    "source": "original_code/06.Elastic_Net/single_trait/02.Apply_covar0.R",
+    "source_sha256": "1212abf87fbba0e3a90be5606baa85136aec9d46e4b1e3937e90e40e3a9643fd",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Replaced undefined error sentinels with explicit stop() calls.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "030eb702a71bd39f04571838c08448099f4343d6916dd7d8aa975544ede43368",
+    "previous_release_path": "06.Elastic_Net/single_trait/02.Apply_covar0.R",
+    "path_before_numbering": "elastic_net/mdd_only/predict_prs.R"
+  },
+  {
+    "path": "elastic_net/mdd_only/02_predict_prs.sh",
+    "source": "original_code/06.Elastic_Net/single_trait/02.Apply_covar0.sh",
+    "source_sha256": "adda32eb041670b8eb3e3b78485af141834c6f10f297ec1ac2f378bd7ce6aa73",
+    "changes": [
+      "Configured paths, executable locations and repository discovery; removed site-specific module/partition requirements.",
+      "Removed named personal conda environment and added scheduler-spool repository discovery.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "a809e21b560e520da79f3714d3accbc97c45797be069cab174a6cc71a5144557",
+    "previous_release_path": "06.Elastic_Net/single_trait/02.Apply_covar0.sh",
+    "path_before_numbering": "elastic_net/mdd_only/predict_prs.sh"
+  },
+  {
+    "path": "elastic_net/mdd_only/03_collect_predictions.R",
+    "source": "original_code/06.Elastic_Net/single_trait/03.Clean_Results.R",
+    "source_sha256": "f64310990ba41b26278fab685c8e17373d90247141425b3cc64e0a0c709be3e6",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "34c4e2982975adac5adabf08e85476427263c75482f8767b4d4c295a7b31264c",
+    "previous_release_path": "06.Elastic_Net/single_trait/03.Clean_Results.R",
+    "path_before_numbering": "elastic_net/mdd_only/collect_predictions.R"
+  },
+  {
+    "path": "elastic_net/mdd_only/04_evaluate_models.R",
+    "source": "original_code/06.Elastic_Net/single_trait/04.Calculate_Performance.R",
+    "source_sha256": "4b7caba4710933857a859b820388e4e90eb9d61438ab3e637ab974dc0e12b6f8",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "19370dce9f5912811c1a4a66ede6228e7a2f5e4067d0760fc8ae9e35ff37cdf2",
+    "previous_release_path": "06.Elastic_Net/single_trait/04.Calculate_Performance.R",
+    "path_before_numbering": "elastic_net/mdd_only/evaluate_models.R"
+  },
+  {
+    "path": "elastic_net/mdd_only/05_summarize_coefficients.R",
+    "source": "original_code/06.Elastic_Net/single_trait/05.Summarise_Number_Nonzero_Coef.R",
+    "source_sha256": "26c391edc923c0a85e8d358d695193edbe2450e9196831fdde0139eb6d6dbdd5",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "6a0340ddc317b37c9c2bf7b606efaad1fef66d345bf8ae9da578b2981a344178",
+    "previous_release_path": "06.Elastic_Net/single_trait/05.Summarise_Number_Nonzero_Coef.R",
+    "path_before_numbering": "elastic_net/mdd_only/summarize_coefficients.R"
+  },
+  {
+    "path": "elastic_net/mdd_only/06_predict_other_ancestries.R",
+    "source": "original_code/06.Elastic_Net/single_trait/06.Pred_AltAncestry.R",
+    "source_sha256": "cca17a68968b097ca7d1248d8c7daff6f488819b338a3aa50a6932613d735f1e",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "e49adda8b7ae88e3680a24ef948c19d98f4a9cb46e74759a24c31582eb9c4729",
+    "previous_release_path": "06.Elastic_Net/single_trait/06.Pred_AltAncestry.R",
+    "path_before_numbering": "elastic_net/mdd_only/predict_other_ancestries.R"
+  },
+  {
+    "path": "elastic_net/mdd_only/07_collect_ancestry_predictions.R",
+    "source": "original_code/06.Elastic_Net/single_trait/07.Clean_AltAncestry.R",
+    "source_sha256": "075ffaf8bb20eec341a0fd5d66be1adc7e0bb18fdfd8bc3ebf5ca1e297d46a0d",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "f939b4d289b71419335f82d233fa40649b236c84857d8deaa3eb537eb0db2e75",
+    "previous_release_path": "06.Elastic_Net/single_trait/07.Clean_AltAncestry.R",
+    "path_before_numbering": "elastic_net/mdd_only/collect_ancestry_predictions.R"
+  },
+  {
+    "path": "elastic_net/mdd_only/08_evaluate_other_ancestries.R",
+    "source": "original_code/06.Elastic_Net/single_trait/08.CalcPerf_AltAncestry.R",
+    "source_sha256": "a1c563915c04943b5f588046becc54d3bf4b430ed84fc52e89e4c0246ceee558",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "de70375101235e3b18b7752c1e32d47bb4033f907262e32c0e90ac805e1c8e89",
+    "previous_release_path": "06.Elastic_Net/single_trait/08.CalcPerf_AltAncestry.R",
+    "path_before_numbering": "elastic_net/mdd_only/evaluate_other_ancestries.R"
+  },
+  {
+    "path": "figures/02_plot_partial_prs_auc.R",
+    "source": "original_code/08.Generate_Figures/01.NoCombine_TraitSet_TraiCoef_AUC.R",
+    "source_sha256": "73e01ae782d367a78f5a3a22d22bb39832c83801b5604f14756c6fd5016c2446",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Declared plotting/session dependencies explicitly.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "b7b27906cdc818db986de50529571c0e7e84a5a7280224a25846056b6d63506c",
+    "previous_release_path": "08.Generate_Figures/01.NoCombine_TraitSet_TraiCoef_AUC.R",
+    "path_before_numbering": "figures/plot_partial_prs_auc.R"
+  },
+  {
+    "path": "figures/07_plot_partial_prs_risk_metrics.R",
+    "source": "original_code/08.Generate_Figures/01b.NoCombine_TraitSet_TraiCoef_nagr2_top10_top1.R",
+    "source_sha256": "371935074d3ddd90d6291f603e83b847fc648c84c4e72036ca10f500025338fb",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Declared plotting/session dependencies explicitly.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "286b6483729e92e7e6ce9449b5e66e9ea2e121d43795d7f7c4d1d565781bcf37",
+    "previous_release_path": "08.Generate_Figures/01b.NoCombine_TraitSet_TraiCoef_nagr2_top10_top1.R",
+    "path_before_numbering": "figures/plot_partial_prs_risk_metrics.R"
+  },
+  {
+    "path": "figures/06_plot_auc_per_variant.R",
+    "source": "original_code/08.Generate_Figures/01c.NoCombine_TraitSet_TraiCoef_aucpersnp.R",
+    "source_sha256": "18abe9bbdcd18865ff76da8298b445bbea9e25312dd77560a1232bda2d80838a",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Declared plotting/session dependencies explicitly.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "7fd71cd68c216f741ed88196e82cf501bdd12e512ba6c051a8fc8e5973be8d41",
+    "previous_release_path": "08.Generate_Figures/01c.NoCombine_TraitSet_TraiCoef_aucpersnp.R",
+    "path_before_numbering": "figures/plot_auc_per_variant.R"
+  },
+  {
+    "path": "figures/04_plot_variant_set_and_effect_comparisons.R",
+    "source": "original_code/08.Generate_Figures/01d.AltVersion_AltTraitCoef_vs_AltTraitSNPset.R",
+    "source_sha256": "e85c23e7ac17b27aac447ed4ca8a670ca8fb6ca540498a09514b3af803968872",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Retained the first two complete saved plots; removed incomplete and superseded alternative plots after original line 196.",
+      "Declared plotting/session dependencies explicitly.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "e875910ab3b56a373e40fc783199274916336f0579a7bd24a145d651ba2331b1",
+    "previous_release_path": "08.Generate_Figures/01d.AltVersion_AltTraitCoef_vs_AltTraitSNPset.R",
+    "path_before_numbering": "figures/plot_variant_set_and_effect_comparisons.R"
+  },
+  {
+    "path": "figures/01_plot_variant_set_overlap.R",
+    "source": "original_code/08.Generate_Figures/02.Upset_Plot_Attempt_v2.R",
+    "source_sha256": "264d53da16a2e897aa430214a4d0d59401310dd6f89465a4bbbb7bf7cbedd5e7",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Declared plotting/session dependencies explicitly.",
+      "Normalized obsolete stage-04 output path and/or HapMap filename typo to match downstream stage-05 readers.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "d08043db49e7b949d42fffd2b13af6096a17024a2cc931ebaa32ebadcaab3def",
+    "previous_release_path": "08.Generate_Figures/02.Upset_Plot_Attempt_v2.R",
+    "path_before_numbering": "figures/plot_variant_set_overlap.R"
+  },
+  {
+    "path": "figures/03_plot_combined_prs_performance.R",
+    "source": "original_code/08.Generate_Figures/03.Plot_AllModels.R",
+    "source_sha256": "f46f37c13c8f2c64e444c60f98b4c50683048089a2b9a8eb2844e3e012da0d99",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Declared plotting/session dependencies explicitly.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "e15bb2f852a79fa7f07137b1046c91be644f29edee8d2882c9e3e18f89d05131",
+    "previous_release_path": "08.Generate_Figures/03.Plot_AllModels.R",
+    "path_before_numbering": "figures/plot_combined_prs_performance.R"
+  },
+  {
+    "path": "figures/05_plot_ancestry_transfer.R",
+    "source": "original_code/08.Generate_Figures/04.Plot_Other_Ancestries.R",
+    "source_sha256": "fc8b76c6206b0236150e3ac9f8508ef685c4703c2cd8af11b802b759771ebcbe",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Retained complete saved SAS/AFR plots; removed incomplete interactive exploratory tail after original line 490.",
+      "Declared plotting/session dependencies explicitly.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "fe3d09831179a01daf3f7b22cf6a4907ff47dff0c003dd02b08acf639b8dc3a1",
+    "previous_release_path": "08.Generate_Figures/04.Plot_Other_Ancestries.R",
+    "path_before_numbering": "figures/plot_ancestry_transfer.R"
+  },
+  {
+    "path": "figures/08_plot_logistic_coefficients.R",
+    "source": "original_code/08.Generate_Figures/05.AllEUR_BaseModelCoef.R",
+    "source_sha256": "6f5b7b04c08e167befc796947d0d9167ed51f9f81d599d0e02e28a4a7c2c49f1",
+    "changes": [
+      "Configured paths; normalized whitespace; preserved analytical expressions.",
+      "Declared plotting/session dependencies explicitly.",
+      "Renamed code to a descriptive path; updated script/launcher references while retaining external data/output filenames.",
+      "Added execution-order prefixes and updated code references; retained original external data/output names."
+    ],
+    "release_sha256": "7c73484419c5d844d98c3403d7c9f53e4f1fb55d8ada788f4a56ae2e7837f898",
+    "previous_release_path": "08.Generate_Figures/05.AllEUR_BaseModelCoef.R",
+    "path_before_numbering": "figures/plot_logistic_coefficients.R"
+  }
+]
